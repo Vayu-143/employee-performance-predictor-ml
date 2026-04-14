@@ -71,34 +71,33 @@ Data Generation → Preprocessing → Model Training → Evaluation → Predicti
 
 Employee-Performance-Predictor/
 │
-├── data/ # Dataset
-│ └── employee_data.csv
+├── data/
+│   └── employee_data.csv
 │
-├── models/ # Saved ML model
-│ └── performance_model.pkl
+├── models/
+│   └── performance_model.pkl
 │
-├── outputs/ # Generated graphs
-│ ├── performance_distribution.png
-│ ├── confusion_matrix.png
-│ └── feature_importance.png
+├── outputs/
+│   ├── performance_distribution.png
+│   ├── confusion_matrix.png
+│   └── feature_importance.png
 │
-├── images/ # Screenshots for README
-│ ├── dashboard.png
-│ ├── prediction.png
-│ └── graph.png
+├── images/
+│   ├── dashboard.png
+│   ├── prediction.png
+│   └── graph.png
 │
-├── src/ # Source code
-│ ├── data_generator.py
-│ ├── preprocessing.py
-│ ├── model.py
-│ ├── evaluate.py
-│ └── visualize.py
+├── src/
+│   ├── data_generator.py
+│   ├── preprocessing.py
+│   ├── model.py
+│   ├── evaluate.py
+│   └── visualize.py
 │
-├── app.py # Streamlit dashboard
-├── main.py # ML pipeline (training & evaluation)
-├── requirements.txt # Dependencies
-└── README.md # Project documentation
-
+├── app.py
+├── main.py
+├── requirements.txt
+└── README.md
 
 ---
 
