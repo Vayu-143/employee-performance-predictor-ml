@@ -67,8 +67,9 @@ Data Generation → Preprocessing → Model Training → Evaluation → Predicti
 
 ---
 
-📂 Folder Structure
+## 📂 Folder Structure
 
+```
 Employee-Performance-Predictor/
 │
 ├── data/
@@ -98,6 +99,7 @@ Employee-Performance-Predictor/
 ├── main.py
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
