@@ -67,14 +67,26 @@ Data Generation → Preprocessing → Model Training → Evaluation → Predicti
 
 ---
 
-## 📂 Folder Structure
+📂 Folder Structure
 
 Employee-Performance-Predictor/
 │
 ├── data/ # Dataset
+│ └── employee_data.csv
+│
 ├── models/ # Saved ML model
-├── outputs/ # Graph outputs
-├── images/ # Screenshots
+│ └── performance_model.pkl
+│
+├── outputs/ # Generated graphs
+│ ├── performance_distribution.png
+│ ├── confusion_matrix.png
+│ └── feature_importance.png
+│
+├── images/ # Screenshots for README
+│ ├── dashboard.png
+│ ├── prediction.png
+│ └── graph.png
+│
 ├── src/ # Source code
 │ ├── data_generator.py
 │ ├── preprocessing.py
@@ -82,10 +94,10 @@ Employee-Performance-Predictor/
 │ ├── evaluate.py
 │ └── visualize.py
 │
-├── app.py # Streamlit app
-├── main.py # ML pipeline
-├── requirements.txt
-└── README.md
+├── app.py # Streamlit dashboard
+├── main.py # ML pipeline (training & evaluation)
+├── requirements.txt # Dependencies
+└── README.md # Project documentation
 
 
 ---
